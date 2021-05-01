@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+
+header {
+
+      position: fixed;
+      background-color: #333333;
+      width: 100%;
+      z-index: 1;
+            
+    }
+
+
+nav {
+
+        text-align: center;
+        padding-top: 1vw;
+        height: 5vw;
+    }
+
+nav li {
+
+    display: inline-block;
+    color: #fff;
+    width: 10vw;/*separacion de las letras en un display: inline-block*/
+    font-size: 3vw;
+    font-weight: 600; /*espesor de las letras*/
+
+      }
+
+.btn-main, li a {
+    text-decoration: none;
+    color: white;
+    cursor:default;
+  }
+ .btn-main:hover, li a:hover {
+    color: blue;
+  }
+
+.jumbotron {
+
+              position: relative;
+              top: 4.5vw;
+              padding-top: 10vw;
+              background-image: url("../img/bg_optimized.jpg");/*fondo del jumbotron*/
+              height: 50vw;/*ancho del jumbotron*/
+              background-size: cover; /*con este comando, la imagen se coloca en todo el espacio*/
+              /*-webkit-background-size: cover; /*no tengo idea de lo que es*/
+              /*-moz-background-size: cover;/*no tengo idea de lo que es*/
+              /*-o-background-size: cover;/*no tengo idea de lo que es*/
+              text-align: center;
+
+            }
+
+.container {
+
+                font-size: 4vw;
+
+            }
+
+.supporting {
+
+              text-align: center;
+              padding-right: 2vw;              
+
+            }
+
+.supporting  .col1 {
+
+                      display: inline-block;
+                      margin-top: 5vw;
+                      font-size: 2vw;
+                      width: 8vw;
+                      text-align: center;
+                      padding-right: 12vw;
+
+                    }
+
+.col2 {
+
+        display: inline-block;
+        margin-top: 5vw;
+        font-size: 2vw;
+        width: 8vw;
+        text-align: center;
+
+      }
+
+.col3 {
+
+        display: inline-block;
+        margin-top: 5vw;
+        font-size: 2vw;
+        width: 8vw;
+        text-align: center;
+        padding-left: 5vw;
+
+      }
+
+.supporting img {
+
+                  position: relative;
+                  width: 5vw;
+                  padding-right: 2vw;
+
+                }
+
+.supporting h2 {
+                  font-weight: 600;
+                  font-size: 2vw;
+                  text-transform: uppercase;
+                  position: relative;                  
+                  text-align: center;
+
+                }
+
+
+.supporting p {
+               
+                font-size: 1.3vw;
+                text-align: justify;
+                height: 5.5vw;
+                width: 10vw;
+                text-align: justify;
+
+              }
+
+
+.link-principal {
+
+                  text-align: center;
+                  color: blue;
+                  text-decoration: none;
+                  position: relative;
+                  top: 0.6vw;
+
+
+                }
+
+footer .container {
+
+                    padding-top: 2vw;
+                    padding-bottom: 2vw;
+                    text-align: center;
+                    background-color: gray;
+
+                  }
+
+.btn-main {
+
+              background-color: #333;
+              color: #fff;
+              font-family: 'cover';
+              font-weight: 600;
+              font-size: 1.8vw;
+              letter-spacing: 1.3px;
+              padding: 16px 40px;
+              text-decoration: none;
+              text-transform: uppercase;
+              border-radius: 10px;
+          }
+
+
+
+
+
+
+
